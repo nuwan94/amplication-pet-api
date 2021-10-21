@@ -1,0 +1,19 @@
+{
+  "dataServiceGeneratorVersion": "0.10.0",
+  "appInfo": {
+    "name": "PetStore API",
+    "description": "Swagger PetyStore API Alternative",
+    "version": "yid5rlhx",
+    "id": "ckuyqz0fa5982811bs6zwno7e7w",
+    "url": "https://app.amplication.com/ckuyqz0fa5982811bs6zwno7e7w",
+    "settings": {
+      "dbHost": "localhost",
+      "dbName": "petstore",
+      "dbPassword": "admin",
+      "dbPort": 5432,
+      "dbUser": "admin",
+      "appId": "ckuyqz0fa5982811bs6zwno7e7w",
+      "authProvider": "Jwt"
+    }
+  }
+}
