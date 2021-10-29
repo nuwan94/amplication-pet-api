@@ -6,8 +6,8 @@ In the project directory you can run:
 
 ### `npm start`
 
-Runs the app in the development mode. By default, it is accessible at
-http://localhost:3000
+Runs the app in the development mode.
+By default, it is accessible at http://localhost:3000
 
 ### `npm test`
 
@@ -17,8 +17,8 @@ Launches the test runner.
 
 Builds the app for production to the `dist` folder.
 
-The build is minified and the filenames include the hashes. Your app is ready to
-be deployed!
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
 
 ## Development
 
@@ -56,5 +56,4 @@ npm start
 
 ## Learn more
 
-You can learn more in the
-[Amplication documentation](https://docs.amplication.com/guides/getting-started).
+You can learn more in the [Amplication documentation](https://docs.amplication.com/guides/getting-started).

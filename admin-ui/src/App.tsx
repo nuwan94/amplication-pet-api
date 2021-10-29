@@ -13,6 +13,10 @@ import { PetList } from "./pet/PetList";
 import { PetCreate } from "./pet/PetCreate";
 import { PetEdit } from "./pet/PetEdit";
 import { PetShow } from "./pet/PetShow";
+import { OrderList } from "./order/OrderList";
+import { OrderCreate } from "./order/OrderCreate";
+import { OrderEdit } from "./order/OrderEdit";
+import { OrderShow } from "./order/OrderShow";
 import { jwtAuthProvider } from "./auth-provider/ra-auth-jwt";
 
 const App = (): React.ReactElement => {
@@ -52,6 +56,13 @@ const App = (): React.ReactElement => {
           edit={PetEdit}
           create={PetCreate}
           show={PetShow}
+        />
+        <Resource
+          name="Order"
+          list={OrderList}
+          edit={OrderEdit}
+          create={OrderCreate}
+          show={OrderShow}
         />
       </Admin>
     </div>

@@ -1,6 +1,8 @@
 import { Module } from "@nestjs/common";
 import { UserModule } from "./user/user.module";
 import { PetModule } from "./pet/pet.module";
+import { OrderModule } from "./order/order.module";
+import { HealthModule } from "./health/health.module";
 import { ACLModule } from "./auth/acl.module";
 import { AuthModule } from "./auth/auth.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -15,6 +17,8 @@ import { GraphQLModule } from "@nestjs/graphql";
   imports: [
     UserModule,
     PetModule,
+    OrderModule,
+    HealthModule,
     ACLModule,
     AuthModule,
     SecretsManagerModule,
