@@ -154,5 +154,95 @@
     "resource": "Pet",
     "action": "read:any",
     "attributes": "*"
+  },
+  {
+    "role": "guest",
+    "resource": "Order",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Order",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Order",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "guest",
+    "resource": "Order",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Order",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Order",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "guest",
+    "resource": "Order",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Order",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Order",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "guest",
+    "resource": "Order",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Order",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Order",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "guest",
+    "resource": "Order",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Order",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Order",
+    "action": "read:any",
+    "attributes": "*"
   }
 ]

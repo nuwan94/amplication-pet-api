@@ -28,6 +28,13 @@ model Pet {
   updatedAt DateTime      @updatedAt
 }
 
+model Order {
+  amount    Float?
+  createdAt DateTime @default(now())
+  id        String   @id @default(cuid())
+  updatedAt DateTime @updatedAt
+}
+
 enum EnumPetStatus {
   Available
   Pending
